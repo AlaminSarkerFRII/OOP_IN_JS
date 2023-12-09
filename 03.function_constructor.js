@@ -13,7 +13,9 @@ function Computer(name, model) {
 
 
 const dell = new Computer("Dell ", "Vostro4200")
-const hp = new Computer("Dell ", "Vostro4200")
+const hp = new Computer("HP ", "LEADO100")
 
 console.log(dell)
 console.log(hp)
+
+console.log(dell.getProperties())
